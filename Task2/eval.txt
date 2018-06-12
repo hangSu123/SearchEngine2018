@@ -1,0 +1,13 @@
+./trec_eval -q -m map ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/BM25b0.4_0.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/bm25/map.csv &&
+./trec_eval -q -m P.10 ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/BM25b0.4_0.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/bm25/p10.csv &&
+./trec_eval -q -m ndcg_cut.10 ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/BM25b0.4_0.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/bm25/ndcg10.csv &&
+./trec_eval -q -m gm_map ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/BM25b0.4_0.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/bm25/gmap.csv
+
+
+
+
+
+./trec_eval -q -m map ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/TF_IDF_1.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/tfidf/map.csv &&
+./trec_eval -q -m P.10 ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/TF_IDF_1.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/tfidf/p10.csv &&
+./trec_eval -q -m ndcg_cut.10 ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/TF_IDF_1.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/tfidf/ndcg10.csv &&
+./trec_eval -q -m gm_map ../trec123.51-200.ap8889.qrels c:/A.study/cab431/AssignmentProject/git/Task2/runs_results/TF_IDF_1.res >> c:/A.study/cab431/AssignmentProject/git/Task2/eval/tfidf/gmap.csv

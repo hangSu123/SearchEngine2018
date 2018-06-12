@@ -1,0 +1,9 @@
+./trec_setup.bat C:/A.study/cab431/AssignmentProject/AP8889
+
+
+
+./trec_terrier.bat -i
+
+
+./trec_terrier.bat --printstats
+

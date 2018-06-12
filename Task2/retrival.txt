@@ -1,0 +1,2 @@
+./trec_terrier.bat -r -Dtrec.model=TF_IDF -c 0.4 -Dtrec.topics=share/vaswani_npl/C:/A.study/cab431/AssignmentProject/git/Task2/formatedQuery.trec
+./trec_terrier.bat -r -Dtrec.model=BM25 -c 0.4 -Dtrec.topics=share/vaswani_npl/C:/A.study/cab431/AssignmentProject/git/Task2/formatedQuery.trec
